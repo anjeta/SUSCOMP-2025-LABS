@@ -16,7 +16,7 @@ You will need this to help you with the in-lab task this week.
 
 Time available: 1 hour.
 
-- Set up git as [per these instructions]() - 10 minutes
+- Set up git as [per these instructions](https://github.com/anjeta/SUSCOMP-2025-LABS/tree/main/github-repo-setup) - 10 minutes
 - Get started with markdown, see [how to use markdown](https://www.markdownguide.org/) - 10 minutes
 - Make sure you have an up-to-date copy of your coursework repo available (```git clone``` or ```git pull``` as needed to ensure you are up to date with the server). In the ‘week2-personal-co2-footprint’ folder, create a new markdown document called ```username-week2-labnotes.md``` with your markdown editor of choice. Replace ```username``` with your login ID (mine would be ```anjeta```). Create it inside your ```week2-personal-co2-footprint``` repository folder, i.e., the same folder as this file.
 
