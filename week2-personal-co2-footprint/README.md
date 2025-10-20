@@ -4,7 +4,7 @@ The goal of today is to explore your own use and energy data demand of the digit
 
 ## Startup Task
 
-Set up git as [per these instructions](https://github.com/anjeta/SUSCOMP-2025-LABS/tree/main/github-repo-setup)
+Start by setting up git as [per these instructions](https://github.com/anjeta/SUSCOMP-2025-LABS/tree/main/github-repo-setup).
 
 Spend a few minutes writing a list of the digital and electronic technology you use most in the home. You should aim for 3-5 technology-enabled appliances (i.e., with a digital processor and/or Internet or WiFi connected). This could include smart TVs, computers, games consoles, Wifi routers, smart speakers, etc.
 
