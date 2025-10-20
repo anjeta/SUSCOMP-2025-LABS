@@ -29,3 +29,7 @@ The good news is VS Code will remember your credentials for you. The git passwor
 ## More version control
 
 Ensure you understand how to use the ```SSH``` URIs (that start with ```git@``` instead of ```HTTPS```) with your key pair for cloning and pushing your repos from/to your GitHub repo.
+
+## Acknowledgement
+
+These instructions are made based on the materials from the Sustainable Computing course held by Adrian Friday, a Professor of Computing and Sustainability at Lancaster University.
