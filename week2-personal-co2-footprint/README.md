@@ -62,3 +62,7 @@ Here are some useful digital resources to help.
 - Energy ratings on [energysavings trust](https://energysavingtrust.org.uk/advice/home-appliances/)
 - What is a kilowatt/hour (kWh)? ([YouTube](https://www.youtube.com/watch?v=SMPhh8gT_1E))
 - Calculating your personal footprint using the [Consumer Footprint Calculator](https://eplca.jrc.ec.europa.eu/ConsumerFootprint.html?utm_source=chatgpt.com)
+
+## Acknowledgement
+
+This lab excercise is made based on the materials from the Sustainable Computing course held by Adrian Friday, a Professor of Computing and Sustainability at Lancaster University.
