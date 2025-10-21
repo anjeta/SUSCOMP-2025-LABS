@@ -25,7 +25,7 @@ Time available: 1 hour.
 2. Add a little detail on how often you use it and for how long (estimate hours per day, week, and year)
 3. Using your photos and the resources below, look up how much active power the device uses when in use, and add this to a markdown table under the appropriate heading.
 4. If the device has a different power level when not in use (e.g., on standby or 0 W if powered off when not in use), find out what this is and add it to the table.
-5. Finally, add a row that calculates the number of kilowatt/hours (divide total in Watts by 1,000 and multiply by the number of hours of use) based on your estimate of use per day, week, and year. For example, if you had a smart speaker that takes 5 W all year round, this would be: 5 × 365 × 241000 = 43.8 kWh
+5. Finally, add a row that calculates the number of kilowatt/hours (divide total in Watts by 1,000 and multiply by the number of hours of use) based on your estimate of use per day, week, and year. For example, if you had a smart speaker that takes 5 W all year round, this would be: 5 × 365 × 24 / 1000 = 43.8 kWh
 
    - i.e., 365 days in a year by 24 hours per day to get total hours used, multiplied by the power demand in Watts to get Watt-hours
    - divide by 1000 to get kilowatt hours
