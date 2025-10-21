@@ -65,6 +65,7 @@ Here are some useful digital resources to help.
 - Energy ratings on [energysavings trust](https://energysavingtrust.org.uk/advice/home-appliances/)
 - What is a kilowatt/hour (kWh)? ([YouTube](https://www.youtube.com/watch?v=SMPhh8gT_1E))
 - Calculating your personal footprint using the [Consumer Footprint Calculator](https://eplca.jrc.ec.europa.eu/ConsumerFootprint.html?utm_source=chatgpt.com)
+- European Commission's [Appliances and Energy Labels](https://energy-efficient-products.ec.europa.eu/product-list_en)
 
 ## Acknowledgement
 
