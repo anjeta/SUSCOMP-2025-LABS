@@ -35,7 +35,7 @@ Time available: 1 hour.
 
 Don’t forget to ```git add``` your new file, ```commit```, and ```push``` to the server at least at the end of the task.
 
-### Example: Mobile Phone Device
+## Example - Mobile Phone Device Consumption Calculation
 
 Estimated usage of the device is:
 
