@@ -69,4 +69,8 @@ Here are some useful digital resources to help.
 
 ## Acknowledgement
 
+<<<<<<< Updated upstream
 This lab excercise is made based on the materials from the Sustainable Computing course held by Adrian Friday, a Professor of Computing and Sustainability at Lancaster University.
+=======
+This lab excercise is made based on the materials from the Sustainable Computing course held by Adrian Friday, a Professor of Computing and Sustainability at Lancaster University.
+>>>>>>> Stashed changes
