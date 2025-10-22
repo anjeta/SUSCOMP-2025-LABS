@@ -32,8 +32,4 @@ Ensure you understand how to use the ```SSH``` URIs (that start with ```git@``` 
 
 ## Acknowledgement
 
-<<<<<<< Updated upstream
 These instructions are made based on the materials from the Sustainable Computing course held by Adrian Friday, a Professor of Computing and Sustainability at Lancaster University.
-=======
-These instructions are made based on the materials from the Sustainable Computing course held by Adrian Friday, a Professor of Computing and Sustainability at Lancaster University.
->>>>>>> Stashed changes
