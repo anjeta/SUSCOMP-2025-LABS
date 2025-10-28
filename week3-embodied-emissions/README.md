@@ -45,6 +45,7 @@ Here are some useful digital resources to help. In your report, specify which on
 - [CO2 Everything](https://www.co2everything.com/) - volunteer effort, so make sure to check the data!
 - [Cloud carbon footprint calculator](https://www.cloudcarbonfootprint.org/)
 - [Internet use footprint](https://ecotree.green/en/calculate-digital-co2)
+- [Mobile data traffic outlook](https://www.ericsson.com/en/reports-and-papers/mobility-report/dataforecasts/mobile-traffic-forecast)
 - [University of Oxford IT provided figures](https://www.it.ox.ac.uk/article/environment-and-it) - worth reading anyway
 - For fun, Small World [Personal carbon footprint calculator](https://www.sw-consulting.co.uk/carbon-calculator)
 - [Ethical consumer guides, including technology](https://www.ethicalconsumer.org/)
