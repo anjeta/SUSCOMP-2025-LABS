@@ -59,7 +59,7 @@ Finally, based on the official Apple information [9], iPhone 15 production is re
 | 3 years       | 16.719 kWh         | 3.930 kg CO2e                         | 201.876 kg CO2e        | 28.224 kg CO2e          |
 | 5 years       | 27.865 kWh         | 6.550 kg CO2e                         | 336.460 kg CO2e        | 47.04 kg CO2e           |
 
-## References
+### References
 
 1. [Izpusti CO2/TGP na enoto električne energije in daljinske toplote](https://ceu.ijs.si/izpusti-co2-tgp-na-enoto-elektricne-energije/) - Data taken from the IJS Center for Energy Efficiency which is a national research institute in Slovenia. On the other hand, government reports such as [Značilne neto kalorične vrednosti in emisijski faktorji za leto 2024](https://www.gov.si/assets/ministrstva/MOPE/Podnebje/Za-ARSO/Znacilne-neto-kaloricne-vrednosti-in-emisijski-faktorji-za-leto-2024.pdf) did not provide an average estimation.
 2. [How long do iPhones last?](https://www.androidauthority.com/how-long-do-iphones-last-3359069/)
