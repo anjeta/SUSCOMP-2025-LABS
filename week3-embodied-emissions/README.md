@@ -22,7 +22,7 @@ Make sure you have an up to date copy of your coursework repo available (```git 
 2. Look up the carbon footprint of the device’s manufacture.
 3. Add a table. Bring over the annual energy use of the device based on your use pattern. Add a column converting this to CO2e by multiplying by a conversion factor (take care with your units!). In Slovenia, you can assume the energy mix is [0.235 kg CO2e/kWh](https://ceu.ijs.si/izpusti-co2-tgp-na-enoto-elektricne-energije/)
 4. Add a column with the carbon footprint for the device.
-5. Now add a row comparing the use footprint with the embodied footprint. Multiply the use footprint by the number of years you keep the device to get the total direct energy for that many years of use; calculate the ‘footprint per year’ of the  manufacturing footprint.
+5. Now add a column comparing the use footprint with the embodied footprint. Multiply the use footprint by the number of years you keep the device to get the total direct energy for that many years of use; calculate the ‘footprint per year’ of the  manufacturing footprint.
 6. You should add a row for 1, 3, 5, and 10 years. In reality, some devices have shorter lifespans than this, but many (e.g., TVs, ovens) could last much longer.
 7. Add a subsection ## Reflections with a short paragraph on your thoughts on how the various assets compare with one another, especially reflecting on the use phase related energy against the manufacturing or embodied energy.
 
