@@ -1,6 +1,6 @@
 # Measuring Software Energy Consumption
 
-The goal for today's lab excercise is to learn how to take energy measurements associated with running specific software and to explore the effect of offloading computation from the CPU to the GPU. We’ll be indirectly using the Intel RAPL for Linux and Power Metrics for MacOS to report energy consumtion from the CPU. Unfortunately, this will not work on Windows machines so please use the lab machine or pair up with someone who has a Linux/MacOS on their personal laptop machine.
+The goal for this lab excercise is to learn how to take energy measurements associated with running specific software and to explore the effect of offloading computation from the CPU to the GPU. We’ll be indirectly using the Intel RAPL for Linux and Power Metrics for MacOS to report energy consumtion from the CPU. Unfortunately, this will not work on Windows machines so please use the lab machine or pair up with someone who has a Linux/MacOS on their personal laptop machine.
 
 Further note that you will be able to run GPU test only on the lab machine or if your machine has an Intel graphics. Keep in mind that Intel graphics has a considerably lower power draw than a dedicated GPU found in most gaming machines and high end AI or graphics machines. Recall, that processors increasingly have other co-processors, such as Intel's NPU, for accelerating operations for machine learning - which also might perform specialist parallel instructions with good compute/energy performance.  *You should keep this in mind when generalising from your findings!*
 
@@ -71,9 +71,9 @@ Make sure you have an up to date copy of your coursework repo available.  In the
 	pip install -r requirements.txt
 	```bash
 	
-3. Download the [profiler.py]() script.  This is a python script and **needs to be executable** - you may need to change it's file permissions (to do so, run `chmod u+x profiler.py` in the terminal shell)
+3. Download the [profiler.py](https://github.com/anjeta/SUSCOMP-2025-LABS/blob/main/week5-measuring-software/profiler.py) script.  This is a python script and **needs to be executable** - you may need to change it's file permissions (to do so, run `chmod u+x profiler.py` in the terminal shell)
 
-4. Download the two test files [test-cpu.py]() and [test-gpu.py]().  This is the same code, the only difference being that with `test-cpu.py` all the calculation is done on the CPU cores.
+4. Download the two test files [test-cpu.py](https://github.com/anjeta/SUSCOMP-2025-LABS/blob/main/week5-measuring-software/test-cpu.py) and [test-gpu.py](https://github.com/anjeta/SUSCOMP-2025-LABS/blob/main/week5-measuring-software/test-gpu.py).  This is the same code, the only difference being that with `test-cpu.py` all the calculation is done on the CPU cores.
 
 5. Run the test case to 'warm up' the system (*load packages and data files for the first time*).
 
@@ -92,7 +92,7 @@ Make sure you have an up to date copy of your coursework repo available.  In the
 
 8. For each test case, add a subsection with the goal of the test, *the command line* you've used and a table with the results.
 
-6. The table should have the results of each test run, how much time it took and how many Joules of energy and total Watt/hours. Additionally, calculate the total power consumtion of running each of the scripts in each test run. You can convert Joules to Watts [using a converter](https://www.rapidtables.com/calc/electric/Joule_to_Watt_Calculator.html), or by hand:
+9. The table should have the results of each test run, how much time it took and how many Joules of energy and total Watt/hours. Additionally, calculate the total power consumtion of running each of the scripts in each test run. You can convert Joules to Watts [using a converter](https://www.rapidtables.com/calc/electric/Joule_to_Watt_Calculator.html), or by hand:
 
    Recall, the power P in watts (W) is equal to the energy E in joules (J), divided by the time period t in seconds (s) - *take care with your units!!*
    
@@ -100,9 +100,9 @@ Make sure you have an up to date copy of your coursework repo available.  In the
    P = \frac{E}{t}
    $$
 
-7. Finish the table with the average time taken and standard deviation.  You could use a spreadsheet like excel, or a stats package like R (see [getting started reference](https://education.rstudio.com/learn/beginner/))
+10. Finish the table with the average time taken and standard deviation.  You could use a spreadsheet like excel, or a stats package like R (see [getting started reference](https://education.rstudio.com/learn/beginner/))
 
-8. Add a subsection called `## Reflections` which summarises what you've found, and any personal observations on the number of Watt's associated with the computations.  How much energy was saved by offloading from CPU to GPU and speeding up the task?  If you ran this task for an entire day, week, month or year how many kWh would be used for CPU and GPU variants?
+11. Add a subsection called `## Reflections` which summarises what you've found, and any personal observations on the number of Watt's associated with the computations.  How much energy was saved by offloading from CPU to GPU and speeding up the task?  If you ran this task for an entire day, week, month or year how many kWh would be used for CPU and GPU variants?
 
 Don't forget to `git add` your new file, `commit` and `push` to the server at least at the end of the task.  **Take care not to add the 'data' folder to your git repository - it contains an enormous data file that you don't need to keep!**  You can remove it with `git rm -r data`.
 
