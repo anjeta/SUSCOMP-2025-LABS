@@ -30,6 +30,4 @@ On the other hand, Colab does not expose CPU power, so we will estimate CPU ener
 
 Time available: 1.5 hours.
 
-Make sure you have an up to date copy of your coursework repo available.  In the '`week9`' folder create a new markdown document called `username-week9-labnotes.md`.
-
-Upload Lab_09.ipynb from this repository to Google Colab. Run the script following the instructions and document your results in `username-week9-labnotes.md`.
+Make sure you have an up to date copy of your coursework repo available.  In the '`week9`' folder create a new markdown document called `username-week9-labnotes.md`. Upload Lab_09.ipynb from this repository to Google Colab. Run the script following the instructions and document your results in the markdown file.
