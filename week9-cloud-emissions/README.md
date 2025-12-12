@@ -4,6 +4,14 @@ The goal for this lab excercise is to learn how to measure energy usage and unde
 
 ## How to make measurements on Colab
 
+1. Avoid performing tasks that download data inside the measurement window. Uploads, downloads, and print-heavy output will skew energy readings.
+
+2. Utilization and power logging runs in a Python thread. This adds a small but constant overhead, so repeat your tests and take the average.
+
+3. Colab does not expose DRAM power, NVMe/SSD power, and CPU package components are not visible via utilisation. Take this into account when writing your report.
+
+4. Repeat tests. Run each test 3 times, record all runs, report mean and standard deviation.
+
 #### GPU measurements
 
 Google Colab provides real-time GPU power readings using:
@@ -17,16 +25,6 @@ This returns instantaneous power in watts. We will sample this repeatedly and in
 #### CPU measurements
 
 On the other hand, Colab does not expose CPU power, so we will estimate CPU energy using CPU utilisation and `psutil.cpu_percent()`. We will also estimate CPU power consumption based on the allocated CPU model.
-
-## Taking good measurements
-
-1. Isolation - Avoid performing tasks that download data inside the measurement window. Uploads, downloads, and print-heavy output will skew energy readings.
-
-2. Overhead - The logger runs in a Python thread. This adds a small but constant overhead, so repeat your tests and take the average.
-
-3. What we miss -  Colab does not expose DRAM power, NVMe/SSD power, and CPU package components are not visible via utilisation. Take this into account when writing your report.
-
-4. Repeating tests - Run each test 3 times, record all runs, report mean and standard deviation.
 
 ## Task
 
